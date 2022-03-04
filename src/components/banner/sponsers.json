@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_banner_sponsers",
+  "info": {
+    "displayName": "Sponsers",
+    "icon": "hand-spock"
+  },
+  "options": {},
+  "attributes": {
+    "SponserImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

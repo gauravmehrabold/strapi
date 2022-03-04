@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_faqs_accorrdians",
+  "info": {
+    "displayName": "Accorrdian",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "string"
+    },
+    "Answer": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_faqs_fa_qs",
+  "info": {
+    "displayName": "FAQs",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "string"
+    },
+    "Answer": {
+      "type": "richtext"
+    }
+  }
+}

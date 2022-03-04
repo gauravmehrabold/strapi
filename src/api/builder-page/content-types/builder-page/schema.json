@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "builder_pages",
+  "info": {
+    "singularName": "builder-page",
+    "pluralName": "builder-pages",
+    "displayName": "Builder Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Components": {
+      "type": "dynamiczone",
+      "components": [
+        "banner.hero-banner",
+        "banner.sponsers",
+        "faqs.fa-qs",
+        "faqs.accorrdian"
+      ]
+    }
+  }
+}
